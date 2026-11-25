@@ -4,97 +4,75 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16fde71b-d677-459c-94e2-0265ccb017de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/UninterMoiHunter.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Enemy1_Attack.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Enemy1_Charge.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Enemy1_Dead.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Enemy1_Hurt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Enemy1_Idle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Enemy1_Walk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Enemy2_Attack.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Enemy2_Charge.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Enemy2_Dead.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Enemy2_Hurt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Enemy2_Idle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Enemy2_Walk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Level1_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Level1_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Level1_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Level1_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Level1_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Level1_backgroundsong.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Level1_throne room.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Level2_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Level2_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Level2_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Level2_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Level2_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Level2_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Level2_backgroundsong.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Level2_dead forest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Level3_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Level3_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Level3_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Level3_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Level3_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Level3_backgroundsong.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Level3_terrace.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Level4_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Level4_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Level4_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Level4_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Level4_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Level4_backgroundsong.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Level4_castle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Menu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Menu_song.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Player1_Attack_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Player1_Attack_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Player1_Attack_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Player1_Dead.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Player1_Fire_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Player1_Fire_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Player1_Hurt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Player1_Idle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Player1_Idle_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Player1_Jump.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Player1_Run.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Player1_Walk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Player2_Attack_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Player2_Attack_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Player2_Attack_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Player2_Dead.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Player2_Hurt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Player2_Idle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Player2_Idle_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Player2_Jump.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Player2_Run.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Player2_Walk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/ScoreBG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Score_song.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/Background.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/Const.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/DBProxy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/Enemy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/EnemyShot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/Entity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/EntityFactory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/EntityMediator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/Game.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/Level.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/Menu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/Player.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/PlayerShot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/Score.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/Utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="16fde71b-d677-459c-94e2-0265ccb017de" name="Changes" comment="jogo feito">
+      <change beforePath="$PROJECT_DIR$/assets/Enemy1_Attack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Enemy1_Charge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Enemy1_Dead.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Enemy1_Hurt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Enemy1_Idle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Enemy1_Walk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Enemy2_Attack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Enemy2_Charge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Enemy2_Dead.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Enemy2_Hurt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Enemy2_Idle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Enemy2_Walk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Level1_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Level1_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Level1_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Level1_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Level1_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Level1_backgroundsong.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Level1_throne room.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Level2_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Level2_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Level2_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Level2_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Level2_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Level2_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Level2_backgroundsong.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Level2_dead forest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Level3_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Level3_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Level3_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Level3_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Level3_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Level3_backgroundsong.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Level3_terrace.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Level4_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Level4_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Level4_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Level4_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Level4_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Level4_backgroundsong.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Level4_castle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Menu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Menu_song.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Player1_Attack_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Player1_Attack_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Player1_Attack_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Player1_Dead.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Player1_Fire_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Player1_Fire_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Player1_Hurt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Player1_Idle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Player1_Idle_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Player1_Jump.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Player1_Run.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Player1_Walk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Player2_Attack_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Player2_Attack_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Player2_Attack_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Player2_Dead.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Player2_Hurt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Player2_Idle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Player2_Idle_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Player2_Jump.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Player2_Run.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Player2_Walk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/ScoreBG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Score_song.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Const.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Const.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +89,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Nekomoi"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Nekomoi/uninter_moi_hunter.git",
+    "accountId": "7be64d43-e4b8-4494-80f7-10a5a4b1049a"
+  }
+}]]></component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -134,6 +124,7 @@
     "Python.main.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "master",
@@ -162,6 +153,19 @@
       <option name="presentableId" value="Default" />
       <updated>1795572550502</updated>
     </task>
+    <task id="LOCAL-00001" summary="jogo feito">
+      <option name="closed" value="true" />
+      <created>1795575546190</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1795575546190</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="jogo feito" />
+    <option name="LAST_COMMIT_MESSAGE" value="jogo feito" />
   </component>
 </project>
