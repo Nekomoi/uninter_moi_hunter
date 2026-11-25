@@ -1,10 +1,30 @@
+import os
+import sys
 import pygame
 from pygame import Surface
 from code.Const import SPRITE_FRAMES, C_BLACK
 
 
+def get_base_dir() -> str:
+    if getattr(sys, 'frozen', False):
+        return getattr(sys, '_MEIPASS', os.path.dirname(sys.executable))
+    return os.path.abspath('.')
+
+
+def resource_path(relative_path: str) -> str:
+    return os.path.join(get_base_dir(), relative_path.lstrip('./').lstrip('/'))
+
+
+def data_path(filename: str) -> str:
+    if getattr(sys, 'frozen', False):
+        base = os.path.dirname(sys.executable)
+    else:
+        base = os.path.abspath('.')
+    return os.path.join(base, filename)
+
+
 def load_frames(sheet_name: str, flip_x: bool = False, scale: float = 1.6) -> list[Surface]:
-    sheet = pygame.image.load(f'./assets/{sheet_name}.png').convert_alpha()
+    sheet = pygame.image.load(resource_path(f'assets/{sheet_name}.png')).convert_alpha()
     num_frames = SPRITE_FRAMES.get(sheet_name, 1)
     sheet_w, sheet_h = sheet.get_size()
     frame_w = sheet_w // num_frames

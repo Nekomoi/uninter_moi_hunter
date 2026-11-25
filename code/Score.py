@@ -1,23 +1,24 @@
 from datetime import datetime
+import sys
 import pygame
 from pygame import Surface, KEYDOWN, K_RETURN, K_BACKSPACE, K_ESCAPE
 from code.Const import WIN_WIDTH, WIN_HEIGHT, C_YELLOW, SCORE_POS, MENU_OPTION, C_WHITE, C_GOLD
 from code.DBProxy import DBProxy
-from code.Utils import draw_text_outline
+from code.Utils import draw_text_outline, resource_path, data_path
 
 
 class Score:
     def __init__(self, window: Surface):
         self.window = window
-        raw = pygame.image.load('./assets/ScoreBG.png').convert_alpha()
+        raw = pygame.image.load(resource_path('assets/ScoreBG.png')).convert_alpha()
         self.surf = pygame.transform.scale(raw, (WIN_WIDTH, WIN_HEIGHT))
         self.rect = self.surf.get_rect(topleft=(0, 0))
 
     def save(self, game_mode: str, player_score: list[int]):
-        pygame.mixer_music.load('./assets/Score_song.mp3')
+        pygame.mixer_music.load(resource_path('assets/Score_song.mp3'))
         pygame.mixer_music.set_volume(0.4)
         pygame.mixer_music.play(-1)
-        db_proxy = DBProxy('DBUninterMoiHunter')
+        db_proxy = DBProxy(data_path('DBUninterMoiHunter'))
         name = ''
 
         while True:
@@ -37,7 +38,7 @@ class Score:
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     pygame.quit()
-                    quit()
+                    sys.exit()
                 elif event.type == KEYDOWN:
                     if event.key == K_RETURN and len(name) == 4:
                         db_proxy.save({'name': name, 'score': int(score), 'date': get_formatted_date()})
@@ -54,11 +55,11 @@ class Score:
             pygame.display.flip()
 
     def show(self):
-        pygame.mixer_music.load('./assets/Score_song.mp3')
+        pygame.mixer_music.load(resource_path('assets/Score_song.mp3'))
         pygame.mixer_music.set_volume(0.4)
         pygame.mixer_music.play(-1)
 
-        db_proxy = DBProxy('DBUninterMoiHunter')
+        db_proxy = DBProxy(data_path('DBUninterMoiHunter'))
         list_score = db_proxy.retrieve_top10()
         db_proxy.close()
 
@@ -88,7 +89,7 @@ class Score:
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     pygame.quit()
-                    quit()
+                    sys.exit()
                 if event.type == KEYDOWN:
                     if event.key in (K_ESCAPE, K_RETURN):
                         return

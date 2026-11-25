@@ -1,6 +1,7 @@
 import random
+import sys
 import pygame
-from pygame import Surface
+from pygame import Surface, Rect
 from code.Const import (
     C_WHITE, WIN_HEIGHT, WIN_WIDTH, MENU_OPTION,
     EVENT_ENEMY, SPAWN_TIME, C_CYAN, C_CRIMSON, C_YELLOW, C_GOLD,
@@ -12,7 +13,7 @@ from code.Entity import Entity
 from code.EntityFactory import EntityFactory
 from code.EntityMediator import EntityMediator
 from code.Player import Player
-from code.Utils import draw_text_outline
+from code.Utils import draw_text_outline, resource_path
 
 
 class Level:
@@ -37,8 +38,8 @@ class Level:
         pygame.time.set_timer(EVENT_ENEMY, SPAWN_TIME)
         pygame.time.set_timer(EVENT_TIMEOUT, TIMEOUT_STEP)
 
-    def run(self, player_score: list[int]) -> bool:
-        pygame.mixer_music.load(f'./assets/{self.name}_backgroundsong.mp3')
+    def run(self, player_score: list[int]):
+        pygame.mixer_music.load(resource_path(f'assets/{self.name}_backgroundsong.mp3'))
         pygame.mixer_music.set_volume(0.35)
         pygame.mixer_music.play(-1)
         clock = pygame.time.Clock()
@@ -85,7 +86,7 @@ class Level:
 
             draw_text_outline(
                 self.window,
-                f'FPS: {clock.get_fps():.0f}',
+                f'FPS: {clock.get_fps():.0f} | ESC: Pausar / Menu',
                 14, C_WHITE, (16, WIN_HEIGHT - 26), center=False
             )
 
@@ -114,7 +115,15 @@ class Level:
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     pygame.quit()
-                    quit()
+                    sys.exit()
+                if event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
+                    pygame.time.set_timer(EVENT_ENEMY, 0)
+                    pygame.time.set_timer(EVENT_TIMEOUT, 0)
+                    go_to_menu = self.__pause_confirm_menu()
+                    pygame.time.set_timer(EVENT_ENEMY, SPAWN_TIME)
+                    pygame.time.set_timer(EVENT_TIMEOUT, TIMEOUT_STEP)
+                    if go_to_menu:
+                        return 'MENU'
                 if event.type == EVENT_ENEMY:
                     choice = random.choice(('Enemy1', 'Enemy2'))
                     self.entity_list.append(EntityFactory.get_entity(choice))
@@ -124,15 +133,22 @@ class Level:
                         self.show_end_message(f'{self.name} CONCLUIDA! (Tempo Esgotado)', C_YELLOW)
                         return True
 
-    def show_end_message(self, message: str, color: tuple):
-        draw_text_outline(
-            self.window,
-            message,
-            30,
-            color,
-            (WIN_WIDTH / 2, WIN_HEIGHT / 2),
-            center=True,
-            outline_width=3
-        )
-        pygame.display.flip()
-        pygame.time.delay(2200)
+    def __pause_confirm_menu(self) -> bool:
+        frozen_bg = self.window.copy()
+        overlay = Surface((WIN_WIDTH, WIN_HEIGHT), pygame.SRCALPHA)
+        overlay.fill((0, 0, 0, 165))
+
+        box_w, box_h = 460, 200
+        box_rect = Rect((WIN_WIDTH - box_w) // 2, (WIN_HEIGHT - box_h) // 2, box_w, box_h)
+
+        selected = 0
+        clock = pygame.time.Clock()
+        pygame.event.clear()
+
+        while True:
+            clock.tick(30)
+            self.window.blit(frozen_bg, (0, 0))
+            self.window.blit(overlay, (0, 0))
+
+            pygame.draw.rect(self.window, (35, 25, 50), box_rect, border_radius=10)
+            pygame.draw.rect(self.window, C_GOLD, box

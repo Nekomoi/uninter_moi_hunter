@@ -4,75 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16fde71b-d677-459c-94e2-0265ccb017de" name="Changes" comment="jogo feito">
-      <change beforePath="$PROJECT_DIR$/assets/Enemy1_Attack.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Enemy1_Charge.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Enemy1_Dead.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Enemy1_Hurt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Enemy1_Idle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Enemy1_Walk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Enemy2_Attack.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Enemy2_Charge.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Enemy2_Dead.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Enemy2_Hurt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Enemy2_Idle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Enemy2_Walk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Level1_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Level1_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Level1_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Level1_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Level1_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Level1_backgroundsong.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Level1_throne room.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Level2_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Level2_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Level2_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Level2_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Level2_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Level2_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Level2_backgroundsong.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Level2_dead forest.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Level3_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Level3_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Level3_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Level3_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Level3_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Level3_backgroundsong.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Level3_terrace.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Level4_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Level4_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Level4_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Level4_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Level4_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Level4_backgroundsong.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Level4_castle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Menu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Menu_song.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Player1_Attack_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Player1_Attack_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Player1_Attack_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Player1_Dead.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Player1_Fire_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Player1_Fire_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Player1_Hurt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Player1_Idle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Player1_Idle_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Player1_Jump.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Player1_Run.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Player1_Walk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Player2_Attack_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Player2_Attack_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Player2_Attack_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Player2_Dead.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Player2_Hurt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Player2_Idle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Player2_Idle_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Player2_Jump.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Player2_Run.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Player2_Walk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/ScoreBG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Score_song.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Const.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Const.py" afterDir="false" />
+    <list default="true" id="16fde71b-d677-459c-94e2-0265ccb017de" name="Changes" comment="alteraçao no Const.py para solucionar erro.01">
+      <change beforePath="$PROJECT_DIR$/build/UninterMoiHunter/Analysis-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/UninterMoiHunter/Analysis-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/UninterMoiHunter/EXE-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/UninterMoiHunter/EXE-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/UninterMoiHunter/PKG-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/UninterMoiHunter/PKG-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/UninterMoiHunter/PYZ-00.pyz" beforeDir="false" afterPath="$PROJECT_DIR$/build/UninterMoiHunter/PYZ-00.pyz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/UninterMoiHunter/UninterMoiHunter.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/build/UninterMoiHunter/UninterMoiHunter.pkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/UninterMoiHunter/base_library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/UninterMoiHunter/base_library.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/UninterMoiHunter/xref-UninterMoiHunter.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/UninterMoiHunter/xref-UninterMoiHunter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Background.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Background.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Level.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Level.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Score.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Score.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/UninterMoiHunter.exe" beforeDir="false" afterPath="$PROJECT_DIR$/dist/UninterMoiHunter.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,11 +106,28 @@
       <option name="project" value="LOCAL" />
       <updated>1795575546190</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="alteraçao no Const.py para solucionar erro.01">
+      <option name="closed" value="true" />
+      <created>1795576186140</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1795576186140</updated>
+    </task>
+    <task id="LOCAL-00003" summary="alteraçao no Const.py para solucionar erro.01">
+      <option name="closed" value="true" />
+      <created>1795576319673</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1795576319673</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="jogo feito" />
-    <option name="LAST_COMMIT_MESSAGE" value="jogo feito" />
+    <MESSAGE value="alteraçao no Const.py para solucionar erro.01" />
+    <option name="LAST_COMMIT_MESSAGE" value="alteraçao no Const.py para solucionar erro.01" />
   </component>
 </project>

@@ -1,19 +1,20 @@
+import sys
 import pygame
 from pygame import Surface
 from code.Const import WIN_WIDTH, WIN_HEIGHT, C_PURPLE, MENU_OPTION, C_WHITE, C_YELLOW, C_CYAN, C_GOLD
-from code.Utils import draw_text_outline
+from code.Utils import draw_text_outline, resource_path
 
 
 class Menu:
     def __init__(self, window: Surface):
         self.window = window
-        raw = pygame.image.load('./assets/Menu.png').convert_alpha()
+        raw = pygame.image.load(resource_path('assets/Menu.png')).convert_alpha()
         self.surf = pygame.transform.scale(raw, (WIN_WIDTH, WIN_HEIGHT))
         self.rect = self.surf.get_rect(topleft=(0, 0))
 
     def run(self):
         menu_option = 0
-        pygame.mixer_music.load('./assets/Menu_song.mp3')
+        pygame.mixer_music.load(resource_path('assets/Menu_song.mp3'))
         pygame.mixer_music.set_volume(0.4)
         pygame.mixer_music.play(-1)
 
@@ -48,7 +49,7 @@ class Menu:
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     pygame.quit()
-                    quit()
+                    sys.exit()
                 if event.type == pygame.KEYDOWN:
                     if event.key == pygame.K_DOWN:
                         menu_option = (menu_option + 1) % len(MENU_OPTION)
