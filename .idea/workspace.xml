@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="16fde71b-d677-459c-94e2-0265ccb017de" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/UninterMoiHunter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Enemy1_Attack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Enemy1_Charge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Enemy1_Dead.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Enemy1_Hurt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Enemy1_Idle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Enemy1_Walk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Enemy2_Attack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Enemy2_Charge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Enemy2_Dead.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Enemy2_Hurt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Enemy2_Idle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Enemy2_Walk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Level1_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Level1_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Level1_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Level1_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Level1_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Level1_backgroundsong.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Level1_throne room.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Level2_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Level2_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Level2_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Level2_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Level2_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Level2_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Level2_backgroundsong.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Level2_dead forest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Level3_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Level3_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Level3_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Level3_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Level3_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Level3_backgroundsong.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Level3_terrace.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Level4_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Level4_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Level4_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Level4_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Level4_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Level4_backgroundsong.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Level4_castle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Menu_song.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Player1_Attack_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Player1_Attack_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Player1_Attack_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Player1_Dead.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Player1_Fire_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Player1_Fire_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Player1_Hurt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Player1_Idle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Player1_Idle_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Player1_Jump.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Player1_Run.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Player1_Walk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Player2_Attack_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Player2_Attack_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Player2_Attack_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Player2_Dead.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Player2_Hurt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Player2_Idle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Player2_Idle_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Player2_Jump.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Player2_Run.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Player2_Walk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/ScoreBG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Score_song.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/Background.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/Const.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/DBProxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/Enemy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/EnemyShot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/Entity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/EntityFactory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/EntityMediator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/Game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/Level.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/Menu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/Player.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/PlayerShot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/Score.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/Utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="3MZynDUnO15yclF8oI8rSGWJA6z" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Game.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/moise/PycharmProjects/UninterMoiHunter/assets",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\moise\PycharmProjects\UninterMoiHunter\assets" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-2653e85de345-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.31033.139" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="16fde71b-d677-459c-94e2-0265ccb017de" name="Changes" comment="" />
+      <created>1795572550502</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1795572550502</updated>
+    </task>
+    <servers />
+  </component>
+</project>
